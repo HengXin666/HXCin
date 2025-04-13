@@ -32,7 +32,8 @@ import java.util.Queue;
  * @BelongsPackage: com.hx
  * @Author: Heng_Xin
  * @CreateTime: 2025-04-13  12:01
- * @Description: 一个基于swing的Java按键监测, 类似于C/C++的_getch()函数. 实现非阻塞非输入的按键输入.
+ * @Description: 一个基于`swing`的Java按键监测, 类似于C/C++的`_getch()`函数.
+ *               实现非阻塞的按键输入, 而且不会回显到控制台上. (使用简单、轻量级、非侵入)
  * @Version: 1.0
  */
 

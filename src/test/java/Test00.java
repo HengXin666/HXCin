@@ -36,5 +36,10 @@ public class Test00 {
             }
         }
         HXCin.listenEnd(); // 结束监听 (恢复焦点)
+
+        // 注意, 因为有窗口的存在, 因此需要手动关闭窗口
+        // 或者 使用 System.exit(0); 强制退出程序
+        System.exit(0);
+        // 否则会等待窗口事件
     }
 }

@@ -1,4 +1,8 @@
-<h1 align="center" style="color:yellow">HXCin</h1>
+<h1 align="center" style="color:yellow">
+
+[HXCin](https://github.com/HengXin666/HXCin)
+
+</h1>
 
 一个基于`swing`的Java按键监测, 类似于C/C++的`_getch()`函数. 实现非阻塞的按键输入, 而且不会回显到控制台上. (使用简单、轻量级、非侵入)
 
@@ -169,7 +173,7 @@ char c = HXCin.tryGetChar(); // 返回-1, 因为被清空缓冲区了
 HXCin.listenEnd();
 ```
 
-## 3. 开源协议
+## 三、开源协议
 
 - 实际上我只有一个要求, 就是 $禁止转载$ 到 CSDN!
 
